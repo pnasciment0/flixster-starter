@@ -103,7 +103,7 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
 ### Walkthrough Video
 
 
-`https://www.loom.com/share/356f75b489aa40a49d5407a1e611690e`
+https://www.loom.com/share/356f75b489aa40a49d5407a1e611690e
 
 ### Reflection
 
