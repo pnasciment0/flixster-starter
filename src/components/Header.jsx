@@ -5,6 +5,7 @@ const Header = ({
   searchQuery, 
   setSearchQuery, 
   handleSearchSubmit, 
+  handleClearSearch, 
   sortOption, 
   setSortOption 
 }) => {
@@ -25,6 +26,7 @@ const Header = ({
             placeholder="Search for a movie..." 
           />
           <button onClick={handleSearchSubmit}>Search</button>
+          {searchQuery && <button onClick={handleClearSearch}>Clear</button>}
         </div>
         <div className="sort-dropdown">
           <label htmlFor="sort">Sort by</label>

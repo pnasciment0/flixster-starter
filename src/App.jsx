@@ -10,9 +10,13 @@ function App() {
   const [sortOption, setSortOption] = useState('rating');
 
   const handleSearchSubmit = () => {
-    setSearchTrigger(true); // flag that user triggered a search
+    setSearchTrigger(true);
   };
 
+  const handleClearSearch = () => {
+    setSearchQuery('');
+    setSearchTrigger(false);
+  };
 
   return (
     <div className="app">
@@ -20,6 +24,7 @@ function App() {
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
         handleSearchSubmit={handleSearchSubmit}
+        handleClearSearch={handleClearSearch}
         sortOption={sortOption}
         setSortOption={setSortOption}
       />

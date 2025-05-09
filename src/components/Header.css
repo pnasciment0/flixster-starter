@@ -29,6 +29,7 @@
   
   .search-bar button {
     padding: 0.5rem 1rem;
+    margin-left: 1rem;
     background-color: #e50914;
     color: white;
     border: none;
