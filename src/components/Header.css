@@ -1,0 +1,83 @@
+/* src/components/Header.css */
+.header {
+    background-color: #0d0d0d;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #FFF;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .search-bar input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .search-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-bar button:hover {
+    background-color: #B00610;
+  }
+  
+  .sort-dropdown select {
+    padding: 0.5rem;
+  }
+  
+  .sort-dropdown label {
+    padding-right: 5px;
+    color: #ccc
+  }
+
+  @media (max-width: 681px) {
+    .header h1 {
+      display: block;
+      margin: 0 auto;
+      font-size: 32px;
+    }
+
+    .header {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 578px) {
+    .header h1 {
+      display: block;
+      margin: 0 auto;
+      font-size: 32px;
+    }
+
+    .header {
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .controls {
+      justify-content: center;
+    }
+
+    .search-bar input {
+      width: 300px;
+    }
+  }
+  
