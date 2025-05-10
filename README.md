@@ -18,13 +18,13 @@ Deployed Application (**required**): [Flixster Deployed Site](https://flixster-s
     - [x] Poster image
     - [x] Votes
   - [x] Users can load more current movies by clicking a button at the bottom of the list, which automatically updates page with new movies (no reloading by clicking the browser's refresh button).
-- [ ] **Search Functionality**
+- [x] **Search Functionality**
   - [x] Users can use a search bar to search for movies by title.
   - [x] The search bar should include:
     - [x] Text input field
     - [x] Submit/Search button
     - [x] Clear button
-  - [c] Movies with a title containing the search query in the text input field are displayed in a grid view when the user either:
+  - [x] Movies with a title containing the search query in the text input field are displayed in a grid view when the user either:
     - [x] Presses the Enter key
     - [x] Clicks the Submit/Search button
   - [x] Users can click the Clear button. When clicked:
